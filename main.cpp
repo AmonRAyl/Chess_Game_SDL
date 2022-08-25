@@ -1,4 +1,4 @@
-#include <cstdlib>//borrar mas adelante
+#include <cstdlib>
 #include "Button.h"
 
 const char WHITE_ROOK = 'R';
