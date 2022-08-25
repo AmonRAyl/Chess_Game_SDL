@@ -1,2 +1,28 @@
 # Chess_Game_SDL
-A chess game made in SDL.
+A chess game made in SDL.  
+I have combined the [game logic](https://github.com/AmonRAyl/Simple-Chess "Game Logic") and the [SDL board](https://github.com/AmonRAyl/SDL_CHESS "SDL BOARD") that I made in previous projects, correcting some errors.  
+  
+## How to use it with Visual Studio 2019:  
+Download SDL then:  
+Has to be used with Debug x64 (the default could be x86).    
+### Go to Project Properties:  
+  
+##### Add in Include Directories:
+\...\SDL2-2.0.22\include\x64  
+\...\SDL2_image-2.6.1\include\x64  
+#### VC++ Directories:  
+##### Add in Library Directories: 
+\...\SDL2-2.0.22\lib\x64  
+\...\SDL2_image-2.6.1\lib\x64  
+#### Linker:
+##### Input:
+###### Add in Additional Dependencies:
+SDL2.lib  
+SDL2main.lib  
+SDL2_image.lib  
+
+Download the images folder and copy it in your project directory, it will be at the same level as the Debug folder.  
+
+### Missing rules:  
+#### Tie by repetition  
+#### Tie by 50 moves  
