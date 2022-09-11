@@ -21,8 +21,9 @@ SDL2.lib
 SDL2main.lib  
 SDL2_image.lib  
   
-Finally you will have to add certain environment rules in your project follow step 8 from [this](https://lazyfoo.net/tutorials/SDL/01_hello_SDL/windows/msvc2019/index.php), you'll have to add 2 rules \...\SDL2-2.0.22\lib\x64 and \...\SDL2_image-2.6.1\lib\x64  
-  Finally download the images folder and copy it in your project directory, it will be at the same level as the Debug folder.  
+You will have to add certain environment rules in your computer follow step 8 from [this](https://lazyfoo.net/tutorials/SDL/01_hello_SDL/windows/msvc2019/index.php), you'll have to add 2 rules \...\SDL2-2.0.22\lib\x64 and \...\SDL2_image-2.6.1\lib\x64  
+  
+Finally download the images folder and copy it in your project directory, it will be at the same level as the Debug folder.  
 
 ### Missing rules:  
 #### Tie by repetition  
