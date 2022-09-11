@@ -8,8 +8,8 @@ Has to be used with Debug x64 (the default could be x86).
 ### Go to Project Properties:  
   
 ##### Add in Include Directories:
-\...\SDL2-2.0.22\include\x64  
-\...\SDL2_image-2.6.1\include\x64  
+\...\SDL2-2.0.22\include  
+\...\SDL2_image-2.6.1\include  
 #### VC++ Directories:  
 ##### Add in Library Directories: 
 \...\SDL2-2.0.22\lib\x64  
