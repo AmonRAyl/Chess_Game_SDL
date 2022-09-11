@@ -3,7 +3,7 @@ A chess game made in SDL.
 I have combined the [game logic](https://github.com/AmonRAyl/Simple-Chess "Game Logic") and the [SDL board](https://github.com/AmonRAyl/SDL_CHESS "SDL BOARD") that I made in previous projects, correcting some errors.  
   
 ## How to use it with Visual Studio 2019:  
-Download SDL then:  
+Download [SDL](https://lazyfoo.net/tutorials/SDL/01_hello_SDL/index.php) and [SDL images](https://lazyfoo.net/tutorials/SDL/06_extension_libraries_and_loading_other_image_formats/index.php) then:  
 Has to be used with Debug x64 (the default could be x86).    
 ### Go to Project Properties:  
   
